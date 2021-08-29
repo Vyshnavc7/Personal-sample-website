@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Top header section -->
-    <header class="bg-info" style="position: fixed ; width: 100%; z-index: 1;">
+    <header class="bg-info" style="position: fixed ; width: 100%; z-index: 1;" id="header-section">
         <div class="row text-white border border-primary" >
             <div class="col-md-6 col-9 p-3 pl-5">
                 <h2>C Vyshnav</h2>
@@ -29,11 +29,8 @@
                           <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-white" href="#">Services</a>
+                          <a class="nav-link text-white" href="#">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Experiences</a>
-                          </li>
                           <li class="nav-item">
                             <a class="nav-link text-white" href="#contact-section">Contact Me</a>
                           </li>
@@ -46,7 +43,7 @@
     <!-- Top header section ends -->
     
     <!-- Image and About -->
-    <section class="p-4 " style="padding-top: 22em;">
+    <section class="p-4 " style="padding-top: 22em;" id="image-section">
         <div class="container-fluid " style=" padding-top: 70px;">
             <div class="row align-items-center ">
                 <div class="col-md-6 ">
@@ -65,20 +62,22 @@
             </div>
             <hr>
             <section class="p-4 bg-light border border-primary rounded" style="padding-top: 22em;">
-                <div class="container  ">
-                    <a href="http://sdc.ac.in"></a>
+                <a class="nav-link text-white" href="#image-section">
+                <div class="container  "></a>
+                    
                     <div class="row col-xl-12 pt-4 ">
-                        
+                        </a>
                         <div class="card text-center border-light  ">
-                            <img class="card-img-top " src="https://img-premium.flaticon.com/png/128/3152/premium/3152908.png?token=exp=1630148972~hmac=0b2be36c38af3f3c598ffb999b11b6d5" alt="Student">
+                            <img class="card-img-top img-responsive  " src="student.png" alt="Student" style="height: 10em;">
                             <div class="card-body">
                             <h5 class="card-title">Student</h5>
                             </div>
                         </div>
-                   
+                        
                     </div>
-                </a>
+                
                 </div>
+            
             </section>
             <hr>
         </div>
@@ -91,11 +90,11 @@
         <div class="container-fluid bg-light border border-primary rounded">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Contact Me Directly</h2>
+                    <h2 class="text-center">Contact Me </h2>
                         <form class="pt-2 pb-3">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Name</label>
+                                    <label class="close-icon" for="inputEmail4">Name</label>
                                     <input type="text" class="form-control" id="inputEmail4" placeholder="Enter the name">
                                 </div>
                                 <div class="form-group col-md-6">
